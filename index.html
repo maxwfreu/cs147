@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/smooth-scroll.min.js"></script>
 	</head>
 	<body class="landing">
 
@@ -19,6 +20,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
+						<li><a data-scroll href="#aboutus">About Us</a></li>
 						<li><a href="generic.html">Generic</a></li>
 						<li><a href="elements.html">Elements</a></li>
 					</ul>
@@ -83,7 +85,7 @@
 				</section>
 
 			<!-- Three -->
-				<section id="three" class="wrapper style1">
+				<section id="aboutus" class="wrapper style1">
 					<div class="container">
 						<header class="major special">
 							<h2>Mauris vulputate dolor</h2>
@@ -161,13 +163,16 @@
 						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
 					</ul>
 				</div>
+				<script>
+    				smoothScroll.init();
+				</script>
 			</footer>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
