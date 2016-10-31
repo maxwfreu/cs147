@@ -1,37 +1,42 @@
-.blur img {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-            position: relative;
-}
- 
-.blur img:hover {
-  -webkit-filter: grayscale(100%) brightness(40%);
-  .overlay {
-  	visibility: visible;
-  }
-}
-
-.imgover {
-	position: absolute;
-}
-
-.overlay div:hover {
-	visibility: visible;
-}
-
 .overlay {
-	z-index: 10;
-	width: 100%;
-  	height: 100%;
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	visibility: hidden;
+  position: relative;
+
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.overlay:hover .overlaytext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlaytext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.3s;
+}
+
+.overlaytext p {
+  padding: 20px;
+  font-size: 1.5em;
 }
 
 .team {
+  width: 100%;
   text-align: center;
+}
+
+.team .item {
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
 }
