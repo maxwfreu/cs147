@@ -1649,12 +1649,12 @@
 		}
 
 	a {
-		text-decoration: underline;
-		color: #f32853;
+		color: #3bd1d1;
+  		text-decoration: none;
 	}
 
 		a:hover {
-			text-decoration: none;
+			color: #75dede;
 		}
 
 	strong, b {
@@ -1679,7 +1679,6 @@
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
 			text-decoration: none;
 		}
 

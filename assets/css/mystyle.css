@@ -33,15 +33,6 @@
   padding: 10px;
 }
 
-.overlaytext a {
-  color: #3bd1d1;
-  text-decoration: none;
-}
-
-.overlaytext a:hover {
-  color: #75dede;
-}
-
 .team {
   width: 100%;
   text-align: center;
