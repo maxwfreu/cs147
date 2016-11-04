@@ -23,11 +23,23 @@
   opacity: 0;
 
   -webkit-transition: opacity 0.3s;
+
+  padding-top: 15%;
 }
 
 .overlaytext p {
-  padding: 20px;
   font-size: 1.5em;
+  margin: 0;
+  padding: 10px;
+}
+
+.overlaytext a {
+  color: #3bd1d1;
+  text-decoration: none;
+}
+
+.overlaytext a:hover {
+  color: #75dede;
 }
 
 .team {
