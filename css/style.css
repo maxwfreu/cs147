@@ -489,7 +489,7 @@ textarea {
 	border-radius: 0px;
 }
 .modal-header {
-	background-color: #3bd1d1;
+	background-color: #323232;
 	color: #ffffff;
 }
 .modal-header h4 {
@@ -763,6 +763,9 @@ textarea {
 
 /* About
 ----------------------------------------------------------------------------- */
+.about p {
+	font-size: 18px;
+}
 .about-phone {
 	margin: 0 auto;
 	display: block;
