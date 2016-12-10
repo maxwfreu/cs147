@@ -758,7 +758,11 @@ textarea {
 /* Prototype
 ----------------------------------------------------------------------------- */
 .prototype {
-	margin: -80px auto -150px;
+	margin: -80px auto -50px;
+}
+
+.video {
+	margin: 40px auto 0px;
 }
 
 /* About
